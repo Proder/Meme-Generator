@@ -9,7 +9,9 @@ export default function Header() {
         className="header-image"
         />
         <h2 className="header-title">Meme Generator</h2>
-        <h4 className="header-cotitle">Made with ♥ by Proder</h4>
+        <h4 className="header-cotitle">Made with ♥ by&nbsp;
+        <a href="https://github.com/Proder" className="header-link">Proder</a>
+        </h4>
       </header>
     </div>
   );
